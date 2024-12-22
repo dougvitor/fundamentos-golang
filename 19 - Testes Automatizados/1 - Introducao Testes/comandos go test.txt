@@ -1,0 +1,17 @@
+- Encontrar arquivos de teste de qualquer pacote da aplicação
+go test ./...
+
+-  Ter mais informações sobre o teste (verboso)
+go test -v
+
+- Cobertura de teste
+go test --cover
+
+- Gerar arquivo .txt (relatório) de cobertura de teste
+go test --coverprofile cover.txt
+
+- Ler do relatório gerado quais são todas as função que estão sendo testadas
+go tool cover --func=cover.txt
+
+- Ler do relatório gerado quais linhas não estão sendo cobertas (será gerado um arquivo no caminho file:///C:/Users/dougl/AppData/Local/Temp/cover504008540/coverage.html#file0)
+go tool cover --html=cover.txt 

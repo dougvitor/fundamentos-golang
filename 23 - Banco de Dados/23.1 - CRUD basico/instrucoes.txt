@@ -1,0 +1,5 @@
+Criação de módugo
+go mod init crud
+
+Baixar módulo mux (Contém métodos utilitarios para fazer chamadas HTTPs)
+go get github.com/gorilla/mux

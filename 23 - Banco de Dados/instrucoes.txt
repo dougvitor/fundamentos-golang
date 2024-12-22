@@ -1,0 +1,5 @@
+Criação de módugo
+go mod init banco-de-dados
+
+Baixar módulo SQL
+go get github.com/go-sql-driver/mysql
